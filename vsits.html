@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/mycss.css">
+      <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="abs.html"><span class="blue-text text-darken-2">Abs</span></a></li>
+        <li class="divider blue darken-2"></li>
+        <li><a href="back.html"><span class="blue-text text-darken-2">Back</span></a></li>
+        <li class="divider blue darken-2"></li>
+        <li><a href="biceps.html"><span class="blue-text text-darken-2">Biceps</span></a></li>
+        <li class="divider blue darken-2"></li>
+        <li><a href="chest.html"><span class="blue-text text-darken-2">Chest</span></a></li>
+        <li class="divider blue darken-2"></li>
+        <li><a href="legs.html"><span class="blue-text text-darken-2">Legs</span></a></li>
+        <li class="divider blue darken-2"></li>
+        <li><a href="shoulders.html"><span class="blue-text text-darken-2">Shoulders</span></a></li>
+        <li class="divider blue darken-2"></li>
+        <li><a href="triceps.html"><span class="blue-text text-darken-2">Triceps</span></a></li>
+        <li class="divider blue darken-2"></li>
+      </ul>
+      <nav>
+        <div class="nav-wrapper blue darken-2">
+          <img class="responsive-img" src="assests/logo1.jpg" class="brand-logo">
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li class="brand-logo center">AJ's Fitness</li>
+            <li><a href="index.html">Home</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Exercise Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="mobilehub.html">Exercise Menu</a></li>
+            </ul>
+        </div>
+      </nav>
+
+
+  <div class="container">
+    <div class="row">
+      <span class="blue-text text-darken-2"><h1 id="bicepsheader">V Sits</h1></span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+    <div class="video-container">
+      <video class="responsive-video" controls>
+    <source src="assests/abs/VSit.mp4" type="video/mp4">
+  </video>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <span class="flow-text blue-text text-darken-2"><p>Sit on the floor with your legs extended and off the ground, with your arms out in front of you. Perform a sit up motion bringing your legs in towards your chest whilst keeping your arms extended. Return to the start position and repeat.</p></span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col s6">
+      <div class="card medium">
+        <div class="card-image">
+          <img class="materialboxed responsive-img" width="650" src="assests/abs/vsit1.jpg">
+        </div>
+        <div class="card-content">
+          <span class="blue-text text-darken-2"><p>Starting position</p></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s6">
+      <div class="card medium">
+        <div class="card-image">
+          <img  class="materialboxed responsive-img" width="650" src="assests/abs/vsit2.jpg">
+        </div>
+        <div class="card-content">
+          <span class="blue-text text-darken-2"><p>Ending position</p></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<footer class="page-footer blue darken-2">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <p class="white-text">Follow us on social media to stay up to date with all the latest news!</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://www.twitter.com"  target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i>  Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://www.youtube.com"  target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i>  Youtube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright blue darken-4">
+        <div class="container">
+        © 2017 Copyright
+        </div>
+      </div>
+    </footer>
+
+
+
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>// Initialize collapse button
+      $(".button-collapse").sideNav();
+      // Initialize collapsible</script>
+
+      <script> $('.button-collapse').sideNav({
+        closeOnClick: true,
+      }
+    );
+    </script>
+
+    </body>
+  </html>
